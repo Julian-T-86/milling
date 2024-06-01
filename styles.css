@@ -14,6 +14,7 @@ html {
 #logo {
     padding: 1.5rem;
     border-radius: 30%;
+    height: 10rem;
 }
 
 body {
@@ -82,7 +83,7 @@ h1 {
 }
 
 #content {
-    background-image: url("./milling-machine.png");
+    background-image: url("./lathe.png");
     height: 500px;
     display: flex;
     justify-content: center;
@@ -100,6 +101,28 @@ h1 {
     color: white;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    text-shadow: -2px -2px 3px black;
+}
+
+#map-label {
+    padding: 0;
+    color: white;
+    text-shadow: -2px -2px 3px black;
+}
+
+iframe {
+    width: 85%;
+}
+
+.foot {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright {
+    color: white;
     text-shadow: -2px -2px 3px black;
 }
 
